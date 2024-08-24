@@ -1,0 +1,12 @@
+/* HSL */
+.header {
+    background-color: hsl(0, 100%, 50%); 
+}
+
+.paragraph {
+    color: hsl(120, 100%, 25%); 
+}
+
+.footer {
+    background-color: hsl(240, 100%, 75%); 
+}

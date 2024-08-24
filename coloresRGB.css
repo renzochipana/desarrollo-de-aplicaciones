@@ -1,0 +1,14 @@
+/* valores enteros */
+.header {
+    background-color: rgb(255, 0, 0); /
+}
+
+/* porcentajes */
+.paragraph {
+    color: rgb(0%, 100%, 0%); 
+}
+
+/* agregando opacidad */
+.footer {
+    background-color: rgba(0, 0, 255, 0.5); 
+}

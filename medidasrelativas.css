@@ -1,0 +1,12 @@
+/* opacidad */
+.header {
+    background-color: rgba(255, 0, 0, 0.8); 
+}
+
+.paragraph {
+    background-color: rgba(0, 255, 0, 0.6); 
+}
+
+.footer {
+    background-color: rgba(0, 0, 255, 0.4); 
+}
