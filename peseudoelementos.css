@@ -1,0 +1,71 @@
+/* Pseudo-elemento ::before añade contenido antes*/
+h1::before {
+    content: "🎉 ";  
+    color: rgb(251, 255, 12);
+}
+
+/* Pseudo-elemento ::after añade contenido after*/
+h1::after {
+    content: " 🎉"; 
+    color: rgb(47, 79, 109);
+}
+
+/* Pseudo-elemento ::first-line diferente estilo en la primera de los parrafos */
+p::first-line {
+    font-weight: bold;  
+    color: #133969;
+}
+
+/* Pseudo-elemento ::first-letter Aplica un estilo diferente*/
+p::first-letter {
+    font-size: 2em;  
+    color: #0990df;
+}
+
+/* Pseudo-elemento ::selection cambia el color de fondo cuando se selcciona*/
+::selection {
+    background: #9e2222; 
+    color: #000;
+}
+
+/* Pseudo-elemento ::marker (para listas)  Cambia el color del marcador de listas*/
+ul::marker {
+    color: #8314af; 
+    font-size: 1.2em;
+}
+
+/* Pseudo-elemento ::placeholder cambia color texto - form */
+input::placeholder {
+    color: #50c48e;  
+    font-style: italic;
+}
+
+/* Pseudo-elemento ::backdrop (para diálogos camabia el color) */
+dialog::backdrop {
+    background: rgba(63, 21, 40, 0.5);  
+}
+
+/* Estilos generales */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+section img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+h1, h2 {
+    text-align: left;
+}
