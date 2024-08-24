@@ -1,0 +1,97 @@
+/* Herencia */
+/* Estilo global para el body */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #060607; 
+    background-color: #1f381f; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para todos los párrafos, heredado del body */
+p {
+    font-size: 16px; 
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilo para todos los enlaces, heredado del body */
+a {
+    color: #ff7b00; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Estilo para los elementos dentro de un contenedor específico */
+.container {
+    padding: 20px;
+    background-color: #87f38d; 
+    border: 1px solid #000000; 
+}
+
+/* Estilo heredado para listas dentro del contenedor */
+.container ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+
+/* Estilo para listas dentro del contenedor */
+.container li {
+    margin-bottom: 5px; 
+}
+
+/* Estilo para campos de formulario dentro de la clase .form-container */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #251212;
+    margin-bottom: 10px;
+}
+
+/* Cascada */
+
+/* Estilo específico para h1 */
+h1 {
+    color: #197591; 
+    font-size: 2em;
+    margin-top: 0; 
+}
+
+/* Estilo específico para h2 */
+h2 {
+    color: #310505; 
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Estilo para botones dentro de .container */
+.container button {
+    background-color: #364c63; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilo para botones con clase .btn-primary */
+.btn-primary {
+    background-color: #71cc27; 
+    color: white;
+}
+
+/* Estilo para botones con clase .btn-secondary */
+.btn-secondary {
+    background-color: #2b608f;
+    color: white;
+}
+
+/* Reglas que sobrescriben otros estilos */
+h1, h2, p {
+    margin: 0; 
+}
