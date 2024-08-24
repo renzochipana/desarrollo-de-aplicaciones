@@ -1,0 +1,45 @@
+/* (px) */
+.box-px {
+    width: 1550px;
+    height: 100px;
+    background-color: rgb(173, 216, 230);      
+
+}
+.text-px {
+    font-size: 40px;
+    padding: 10px;
+}
+.margin-px {
+    margin: 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* (cm) */
+.box-cm {
+    width: 40cm;
+    height: 3cm;
+    background-color: rgb(144, 238, 144);
+}
+.text-cm {
+    font-size: 1cm;
+    padding: 0.5cm;
+}
+.margin-cm {
+    margin: 2cm;
+    border: 0.005cm solid rgb(0, 0, 0);
+}
+
+/* (in) */
+.box-in {
+    width: 16in;
+    height: 1in;
+    background-color: rgb(240, 128, 128);
+}
+.text-in {
+    font-size: 0.5in;
+    padding: 0.2in;
+}
+.margin-in {
+    margin: 1in;
+    border: 0.005in solid rgb(0, 0, 0);
+}
