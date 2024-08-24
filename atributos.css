@@ -1,0 +1,97 @@
+/* Selector  simple le da estilo al titulo*/
+[title] {
+    color: #f50606; 
+    font-weight: bold;
+}
+
+
+
+/* Selector de atributo a las paginas https seguras*/
+a[href^="https"] {
+    color: rgb(92, 68, 224); 
+    text-decoration: none;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0b0b /*fondo.co*/;
+    color: #131111 /*c.letras*/;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #031638 /*co.titu_subtitu*/;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #ad3f3f /* col.lineas*/;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #4832c4;
+}
+
+a {
+    text-decoration: none;
+    color: #99284e;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a12957;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
