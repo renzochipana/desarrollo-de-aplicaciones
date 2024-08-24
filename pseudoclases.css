@@ -1,0 +1,100 @@
+/* PESEU_CLA:hover ---> Cambia el color del enlace*/
+a:hover {
+    color: rgb(184, 230, 19); 
+}
+
+/*:focus ---> Cambia el borde del input  */
+input:focus {
+    border-color: rgb(243, 78, 216);
+}
+
+/*:active cambia cuando se esta clickeado*/
+a:active {
+    color: rgb(131, 24, 153); 
+}
+
+/* :visited  cambia color */
+a:visited {
+    color: rgb(212, 11, 11);
+}
+/*  :first-child Aplica un color de fondo al primer hijo de la sección en el contenedor*/
+section:first-child {
+    background-color: #7ca0e4; 
+}
+
+/*:last-child Aplica un borde al último hijo de la sección en el contenedor */
+section:last-child {
+    border-bottom: 2px solid #333; 
+}
+/*:nth-child(n) fondo a los elementos de lista impar*/
+ul li:nth-child(odd) {
+    background-color: #d499b5; 
+}
+
+/*:nth-of-type(n) color del segundo h2 en el contenedor*/
+h2:nth-of-type(2) {
+    color: rgb(38, 194, 168); 
+}
+
+/*:not(selector) borde a todos los divs que no tienen la clase "special"*/
+div:not(.special) {
+    border: 1px solid rgb(207, 32, 32);
+}
+
+/*:checked color de fondo de los elementos input que están marcados o seleccionados*/
+input:checked {
+    background-color: rgb(62, 87, 226); 
+}
+
+/*:disabled fondo elementos input que están deshabilitados*/
+input:disabled {
+    background-color: #271212; 
+}
+
+/*:empty  cambia color a los parrafos vacios*/
+p:empty {
+    color: rgb(182, 110, 241); 
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* botón de correo */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(8, 4, 4);
+    background-color: #e0e264;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #6699cf;
+}
+
