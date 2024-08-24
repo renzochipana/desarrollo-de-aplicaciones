@@ -1,0 +1,55 @@
+/* Fondo de la página */
+body {
+    background-color: #749cd8; 
+    font-family: Arial,Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para campos de texto */
+input[type^="text"],
+input[type^="password"],
+input[type^="email"] {
+    border: 2px solid #180c5a;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para botones */
+input[type$="button"],
+input[type$="submit"] {
+    background-color: #1e6436; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para campos de correo electrónico */
+input[name*="email"] {
+    border: 2px dashed #421b19; 
+}
+/* Estilo para campos cuyo ID empieza con "user" */
+input[id^="user"] {
+    background-color: #f0f0f0; 
+}
+/* Estilo para enlaces que contienen "example" */
+a[href*="example"] {
+    color: #ff5722; 
+    text-decoration: underline;
+}
+
+/* Estilo para elementos con clase que empieza con "btn" */
+[class^="btn"] {
+    background-color: #0e0d1d; 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
