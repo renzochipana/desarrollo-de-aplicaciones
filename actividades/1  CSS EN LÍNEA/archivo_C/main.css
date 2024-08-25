@@ -1,0 +1,104 @@
+ /*cabecera*/
+ h1{
+    color: red;
+    font-size: larger; /* selectores */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    background-color:chartreuse;
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen del encabezado principal */
+    font-size: 40px; /* Tamaño de fuente grande para el título */
+}
+
+header {
+    background-color:blueviolet; /* Color de fondo oscuro para el encabezado */
+    padding: 5px; /* Espaciado interno del encabezado */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 20; /* Elimina el relleno de la lista */
+    display:flex; /* Muestra los elementos de la lista en una fila */
+}
+
+nav li {
+    margin-right: 220px; /* Espacio entre los elementos de la lista */
+}
+
+
+
+
+footer{
+    color: #777;
+    /* espaciado interno*/
+    padding: 5px;
+    /* texto centrado*/
+    text-align: center ;
+    /* tamaño de fuente*/
+    font-size: 14px;
+    background-color:black;
+}
+
+h2{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    color:coral
+}
+
+.parrafo{ /*por su clases */
+    color: blueviolet;
+    font-style: italic;
+}
+
+.informacion{
+    color: deeppink;
+    font-style: italic;
+}
+ 
+/* SELECTORES DE ATRIBUTO */
+
+[href]{
+    color:blueviolet;
+}
+
+[href="#conceptos"]{
+    color: brown;
+}
+[href="#contenido"]{
+    color: chartreuse;
+}
+[href = "#otros"]{
+    color: darkblue;
+}
+
+/* pseudo clases*/
+/* Estilo para enlaces cuando se pasa el cursor por encima */
+a:hover { 
+    text-decoration: none;  /* Elimina el subrayado al pasar el cursor */
+    color: #FF6347;          /* Cambia el color del texto */
+}
+
+/* Estilo para el campo de entrada cuando está en foco */
+input:focus { 
+    background-color: blanchedalmond; /* Cambia el color de fondo cuando se selecciona el input */
+    border: 5px solid #FF6347;        /* Agrega un borde de 2px */
+}
+
+p::first-letter{ /*aplica en la primera letra de cada parrafo*/
+    color: red;
+    font-size: large;
+}
+
+button {
+    background-color: #2980b9; /* Color de fondo azul para el botón */
+    color: #fff; /* Color de texto blanco para el botón */
+    border: none; /* Sin borde para el botón */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}

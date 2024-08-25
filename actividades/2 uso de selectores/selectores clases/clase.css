@@ -1,0 +1,72 @@
+/* Selector por clase .titulo */
+.titulo {
+    color:aliceblue; /* Cambia el color del texto a azul */
+    font-size: 40px; /* Tamaño de fuente grande para el título */
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    text-align: center; /* Centra el texto */
+    background-color: brown;
+}
+
+/* Selector por clase .subtitulo */
+.subtitulo {
+    color:brown; /* Color de texto gris oscuro */
+    font-family: 'Times New Roman', Times, serif; /* Tipografía */
+    margin-top: 20px; /* Espacio superior */
+    text-align: center;
+}
+
+/* Selector por clase .parrafo */
+.parrafo {
+    color:#333; /* Color de texto gris */
+    line-height: 1.5; /* Mejora la legibilidad */
+    font-size: 16px; /* Tamaño de fuente para párrafos */
+}
+
+/* Selector por clase .enlace */
+.enlace {
+    color: #2980b9; /* Color de texto azul */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.enlace:hover {
+    color: #3498db; /* Cambia el color al pasar el cursor */
+}
+
+/* Selector por clase .label */
+.label {
+    font-weight: bold; /* Estilo en negrita para las etiquetas */
+    display: block; /* Hace que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espacio inferior para separar de los campos de entrada */
+}
+
+/* Selector por clase .input */
+.input {
+    width: 100%; /* Ancho completo para el campo de texto */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #0fe5e5; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior para separar de otros elementos */
+}
+
+/* Selector por clase .boton */
+.boton {
+    background-color: #2980b9; /* Color de fondo azul para el botón */
+    color: #fff; /* Color de texto blanco para el botón */
+    border: none; /* Sin borde para el botón */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton:hover {
+    background-color: #3498db; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Selector por clase .pie */
+.pie {
+    background-color: #cc5555; /* Color de fondo gris oscuro para el pie de página */
+    color: #e6ece5; /* Color de texto gris claro */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}

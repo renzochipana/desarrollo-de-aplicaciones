@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Selector por nombre de etiqueta h1 */
+h1 {
+    color:antiquewhite; /* Cambia el color del texto a azul */
+    font-size: 40px; /* Tamaño de fuente grande para el título */
+    text-align: center; /* Centra el texto */
+    background-color: blue;
+}
+
+/* Selector por nombre de etiqueta h2 */
+h2 {
+    color:aliceblue; /* Cambia el color del texto a azul */
+    font-family: 'Times New Roman', Times, serif; /* Tipografía */
+    margin-top: 20px; /* Espacio superior */
+    background-color: #3498db;
+    text-align: center; /* Centra el texto */
+}
+
+/* Selector por nombre de etiqueta p */
+p {
+    color:forestgreen; /* Cambia el color del texto a coral */
+    line-height: 1; /* Mejora la legibilidad */
+    font-size: 20px; /* Tamaño de fuente para párrafos */
+}
+
+/* Selector por nombre de etiqueta footer */
+footer {
+    background-color:#777; /* Color de fondo del pie de página */
+    color:aliceblue; /* Color del texto en el pie de página */
+    text-align: center; /* Centra el texto */
+    padding: 12px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilo para el botón al pasar el cursor */
+button:hover {
+    background-color: #3498db; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.paraf{
+    color: darkmagenta;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

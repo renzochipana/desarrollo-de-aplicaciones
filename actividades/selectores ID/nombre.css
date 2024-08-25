@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Selector por ID #titulo */
+#titulo {
+    color: rgb(255, 10, 30); /* Cambia el color del texto a azul */
+    font-size: 36px; /* Tamaño de fuente grande para el título */
+    text-align: center; /* Centra el texto */
+}
+
+/* Selector por ID #pie */
+#pie {
+    background-color: rgb(143, 44, 44); /* Color de fondo negro para el pie de página */
+    color: white; /* Color de texto blanco para el pie de página */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Selector por clase .enlace */
+.enlace {
+    color: #2980b9; /* Color de texto azul */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.enlace:hover {
+    color: #01e46f; /* Cambia el color al pasar el cursor */
+}
+
+/* Selector por nombre de etiqueta h2 */
+h2 {
+    color: #ffffff; /* Color de texto gris oscuro */
+    font-family: 'Times New Roman', Times, serif; /* Tipografía */
+    margin-top: 20px; /* Espacio superior */
+    background-color: #f80000;
+}
+
+/* Selector por nombre de etiqueta p */
+p {
+    color: rgb(43, 0, 255); /* Color del texto para párrafos */
+    line-height: 1.5; /* Mejora la legibilidad */
+    font-size: 16px; /* Tamaño de fuente para párrafos */
+}
+
+/* Selector por nombre de etiqueta input */
+input[type="text"] {
+    width: 100%; /* Ancho completo para el campo de texto */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #5c05f4; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior para separar de otros elementos */
+}
+
+/* Selector por nombre de etiqueta button */
+button {
+    background-color: #00ff3c; /* Color de fondo azul para el botón */
+    color: #fff; /* Color de texto blanco para el botón */
+    border: none; /* Sin borde para el botón */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #cf0d0d; /* Cambia el color de fondo al pasar el cursor */
+}

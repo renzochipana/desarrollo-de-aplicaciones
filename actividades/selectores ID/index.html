@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Selectores por ID</title>
+    <link rel="stylesheet" href="nombre.css"> <!-- Vinculación del archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Etiquetas Semánticas y No Semánticas</h1>
+        <nav>
+            <ul>
+                <li><a href="#conceptos" class="enlace">Conceptos</a></li>
+                <li><a href="#contenido" class="enlace">Contenido</a></li>
+                <li><a href="#otros" class="enlace">Otros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="conceptos">
+            <h2>Conceptos</h2>
+            <p>Las etiquetas semánticas en HTML son elementos que describen el propósito y el significado del contenido que contienen.</p>
+        </section>
+
+        <section id="contenido">
+            <h2>Contenido</h2>
+            <p>Las etiquetas semánticas estructurales son esenciales para definir la estructura de un documento HTML.</p>
+        </section>
+
+        <section id="otros">
+            <h2>Otros</h2>
+            <p>Las etiquetas no semánticas en HTML son aquellas que no proporcionan información sobre el contenido que contienen.</p>
+        </section>
+
+        <p>Visita nuestro sitio web haciendo clic en este <a href="#" class="enlace">ENLACE</a>.</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p id="pie">@2024 Tecnología e Informática</p> <!-- Agregado ID para el pie -->
+    </footer>
+</body>
+</html>

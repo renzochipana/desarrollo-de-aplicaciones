@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>en línea </title>
+    <style>
+        h1{
+            color: red;
+            font-size: larger; /* selectores */
+
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 900;
+            background-color:chartreuse;
+        }
+
+        footer{
+            color: #777;
+            /* espaciado interno*/
+            padding: 5px;
+            /* texto centrado*/
+            text-align: center ;
+            /* tamaño de fuente*/
+            font-size: 14px;
+            background-color:black;
+        }
+
+        h2{
+            color: blue;
+            font-family:'Times New Roman', Times, serif;
+        }
+        p{
+            color:coral
+        }
+
+        .parrafo{ /*por su clases */
+            color: blueviolet;
+            font-style: italic;
+        }
+
+        .informacion{
+            color: deeppink;
+            font-style: italic;
+        }
+         
+        /* SELECTORES DE ATRIBUTO */
+        [href]{
+            color:blueviolet;
+        }
+
+        [href="#conceptos"]{
+            color: brown;
+        }
+        [href="#contenido"]{
+            color: chartreuse;
+        }
+        [href = "#otros"]{
+            color: darkblue;
+        }
+
+        /* pseudo clases*/
+        a:hover { 
+            text-decoration: none;  /* Elimina el subrayado al pasar el cursor */
+            color: #FF6347;          /* Cambia el color del texto */
+        }
+
+        /* Estilo para el campo de entrada cuando está en foco */
+        input:focus { 
+            background-color: blanchedalmond; /* Cambia el color de fondo cuando se selecciona el input */
+            border: 5px solid #FF6347;        /* Agrega un borde de 2px */
+        }
+
+        p::first-letter{ /*aplica en la primera letra de cada parrafo*/
+            color: red;
+            font-size: large;
+        }
+
+        /* Estilos para la navegación */
+        nav ul {
+            list-style-type: none; /* Elimina los puntos de la lista */
+            padding: 0; /* Elimina el relleno de la lista */
+            display: flex; /* Muestra los elementos de la lista en una fila */
+        }
+
+        nav li {
+            margin-right: 100px; /* Espacio entre los elementos de la lista */
+        }
+
+        button {
+            background-color: #2980b9; /* Color de fondo azul para el botón */
+            color: #fff; /* Color de texto blanco para el botón */
+            border: none; /* Sin borde para el botón */
+            padding: 10px 20px; /* Espaciado interno para el botón */
+            border-radius: 4px; /* Bordes redondeados para el botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Elementos semánticos -->
+    <header>
+        <h1> etiquetas semanticas y no semanticas</h1>
+        <nav>
+            <ul>
+                <li><a href="#conceptos">conceptos</a></li>
+                <li><a href="#contenido">contenido</a></li>
+                <li><a href="#otros">otros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="conceptos">
+            <h1>conceptos</h1>
+                 <!-- en linea -->
+            <p style="color: blue;"> Las etiquetas semánticas en HTML son elementos que describen el propósito y el significado del contenido que contienen, 
+                en lugar de simplemente definir su apariencia. Estas etiquetas proporcionan información adicional a los navegadores 
+                y motores de búsqueda sobre el tipo de contenido que están representando, lo que mejora la accesibilidad y el SEO.</p>
+                
+                <h2> Legibilidad </h2>
+                <p class="parrafo"> Uno de los aspectos más atractivos de usar etiquetas de código HTML semánticas en cualquier sitio web es la legibilidad 
+                    mejorada del backend del sitio web. Cuando la codificación de un sitio web está debidamente formateada y organizada, 
+                    es mucho más fácil pasar por el marcado visible para encontrar secciones específicas y áreas particulares de distintas 
+                    páginas de tu sitio web.</p>
+        </section>
+
+
+
+        <section id="contenido">
+            <h1>contenido</h1>
+            <article>
+                <h2>Etiquetas semánticas estructurales</h2>
+                <p class="parrafo1">Las etiquetas semánticas estructurales son esenciales para definir la estructura de un documento HTML y mejorar 
+                    la accesibilidad y el SEO. Estas etiquetas permiten a los motores de búsqueda y otros sistemas automáticos 
+                    entender mejor la estructura y el contenido de una página web.</p>
+            </article>
+
+            <article>
+                <h2>Importancia de las Etiquetas Semánticas</h2>
+                <p>Las etiquetas semánticas en HTML son cruciales porque transmiten el significado y la estructura del contenido a los navegadores 
+                    y motores de búsqueda. A diferencia de las etiquetas genéricas como div y span, las etiquetas semánticas proporcionan 
+                    información adicional sobre el tipo de contenido que están representando1. Esto mejora la accesibilidad, la usabilidad 
+                    y el SEO de una página web</p>
+            </article>
+        </section>
+
+        <section id="otros">
+            <h1>informacion</h1>
+            <p class="informacion">Las etiquetas semánticas ayudan a los motores de búsqueda a indexar el contenido de manera más precisa, mejoran la 
+                accesibilidad para usuarios con discapacidades y facilitan el mantenimiento del código. Además, hacen que el código 
+                sea más legible y comprensible tanto para los desarrolladores como para las máquinas23.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>@2024 Tecnología y informatica</p>
+    </footer>
+
+    <!-- Elementos no semánticos -->
+    <div id ="no semantico">
+        <h1> no semantico</h1>
+        <p class="parrafoss">Este es  un contenidoadicional dentro de un <code>div</code> no semántico.</p>
+    </div>
+
+    <span>Las etiquetas no semánticas en HTML son aquellas que no proporcionan información sobre el contenido que contienen. 
+        En lugar de describir el propósito o significado del contenido, simplemente definen una estructura genérica</span>
+
+        <p class="paraf">Visita nuestro sitio web haciendo clic en este <a href="#">enlace</a>.</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
+            <button>
+                <label for="submit"> enviar </label>
+            </button>
+        </form>
+    
+</body>
+</html>
