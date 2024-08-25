@@ -1,0 +1,45 @@
+/* Selectores de tipo */
+h1 {
+    color: navy;
+    text-align: center;
+    background-color: yellow;
+}
+
+/* Selectores de clase */
+.highlight {
+    color: green;
+    font-style: italic;
+}
+
+/* Selectores de ID */
+#main {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Selectores de atributo */
+a[href^="http"] {
+    color: purple;
+}
+
+/* Pseudo-clases */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-elementos */
+p::first-letter {
+    font-size: 200%;
+    color: orange;
+}
+
+/* Selectores combinados */
+nav ul li a {
+    font-size: 18px;
+}
+
+/* Múltiples selectores */
+h2,
+p {
+    margin: 10px 0;
+}
