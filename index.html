@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club de Fans - RBD</title>
-    <link rel="stylesheet" href="atributos.css">
+    <title>Página Web de Ejemplo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container"> <!-- agrupar y aplicar estilos al todo contenido-->
-        <h1 title="Título Principal">¡ CLUB DE FANS - RBD !</h1>
-        <section>
-            <h2>¿QUIÉNES SOMOS?</h2>
-            <p>Bienvenido al ClubDeFans_RBD, creado para todos los/as fans de RBD. Aquí encontrarás todo sobre tu grupo favorito, fotos y sus novedades. Además, aquí podrás opinar en el foro, y darnos tu opinión en las encuestas que se renovarán cada poco. Gracias por visitar la página y espero que te guste. Para cualquier sugerencia sobre la web o sobre cualquier noticia que quieras enviarnos, mándanos un correo electrónico; las direcciones se encuentran en la parte inferior de esta página.</p>
-            <img src="images.png" alt="Imagen de RBD" width="600" height="400">
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es una página de ejemplo que utiliza técnicas avanzadas de CSS.</p>
         </section>
-        <section>  <!--secciones para organizar el contenido-->
-            <h2>BIBLIOGRAFÍA</h2>
-             <!-- P ES los parrafos--><p>RBD es un grupo musical que surgió en 2004 para promocionar la telenovela Rebelde. Conformado por Anahí, Alfonso Herrera, Christopher Uckermann, Dulce María, Maite Perroni y Christian Chávez, el grupo se destacó tanto en México como en otros países, alcanzando gran éxito con álbumes como Rebelde y Nuestro Amor. RBD lanzó su música en varios idiomas y formatos, incluyendo un disco en inglés, Rebels. La banda recibió numerosos premios y certificaciones, pero anunció su separación en 2008.</p>
-            <img src="rbd.jpg" alt="Imagen de RBD" width="600" height="400">
-        </section>
-        <section>
-            <h2>¿QUÉ HACEMOS?</h2>
-            <ul><!-- lista no ordenada de elementos , li es elementos en lista-->
-                <li><strong>Noticias y Actualizaciones:</strong> Últimas noticias y eventos.</li>
-                <li><strong>Foro de Discusión:</strong> Conversaciones y teorías.</li>
-                <li><strong>Eventos Exclusivos:</strong> Concursos y reuniones.</li>
-                <li><strong>Galería:</strong> Fotos, videos y fan art.</li>
-                <li><strong>Merchandise:</strong> Productos exclusivos.</li>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li class="servicio">Diseño Web</li>
+                <li class="servicio">Desarrollo de Aplicaciones</li>
+                <li class="servicio">SEO</li>
             </ul>
         </section>
-        <section>
-            <h2>ÚNETE A NOSOTROS</h2>
-            <p>¡Unirse es fácil! Accede a contenido exclusivo y participa en nuestros eventos.</p>
-            <a class="btn" href="mailto:rebelde_fans@gmail.com">ESCRÍBENOS A : rebelde_fans@gmail.com</a>
-
-            <li><a href="https://www.palimpalem.com/2/ClubDeFans_RBD/index.html?body1.html" target="_blank">PAGINA QUE APOYAMOS</a></li>
-            <!-- el TARGET es para una nueva pestaña-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
-    </div>
+    </main>
     <footer>
-        <p>&copy; 2024 REBELDE. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>

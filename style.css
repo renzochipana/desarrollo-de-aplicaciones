@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Pseudo-clase :hover */
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+/* Estilos de las secciones */
+main {
+    padding: 20px;
+}
+
+/* Estilo para los servicios */
+.servicio {
+    background: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #e8491d;
+    transition: transform 0.3s;
+}
+
+/* Pseudo-clase :nth-child() */
+.servicio:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Pseudo-elemento ::before */
+.servicio::before {
+    content: "✔️";
+    margin-right: 10px;
+}
+
+/* Estilos del formulario */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Pseudo-clase :focus */
+input:focus {
+    border: 2px solid #e8491d;
+    outline: none;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
